@@ -1,0 +1,54 @@
+
+.user-name-head {
+    float: left;
+    line-height: 24px;
+}
+
+
+.header-drpdown{
+    margin-left: 0px !important;
+    margin-top: 12px;
+}
+
+
+.header-user-img{
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.header-text{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.profile{
+    color:white;
+
+    
+}
+ /* .hov> li > a:hover{
+    background-color:rgb(212, 14, 14);
+}  */
+
+  
+  .hov {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .hov a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .hov a.active {
+    border-bottom: 3px solid red;
+  }

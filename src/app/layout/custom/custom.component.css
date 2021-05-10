@@ -1,0 +1,150 @@
+.main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.table{
+    background-color:white;
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+th{
+    background-color:#f2f4f7;
+}
+td:last-child{
+    width: 250px;
+}
+td:first-child{
+    width:150px;
+}
+.custom{
+    height: 50%
+}
+ .search{
+     border: none;
+     border-color: white;
+     border-radius: 5px;
+
+ } 
+ input:focus{
+     outline: none;
+ }
+ .searchbutton{
+     border-radius: 5px;
+     color:gray;
+     background-color: white;
+     border: none;
+     margin-left: -9px;
+ } 
+    
+
+body{
+    background-color: wheat;
+}
+.heading{
+     text-align: center;
+    margin-bottom: 30px;
+    margin-top: -40px; 
+    font-weight: bolder;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+     font-family: "Lucida Console", "Courier New", monospace; 
+
+}
+.btn{
+    border :none;
+    margin: 5px;
+
+}
+.fa-edit{
+ font-size: 20px;
+ color:#31909e;
+}
+.fa-trash{
+    font-size: 20px;
+    color: red;
+}
+.fa-info-circle{
+    font-size: 20px;
+    color:goldenrod;
+}
+.p3{
+    font-family: "Lucida Console", "Courier New", monospace; 
+    text-decoration: underline ;
+    text-align: center;
+}
+.submit{
+    text-align: center;
+}
+.modal-body{
+    height: 100%;
+    overflow-y: auto;
+
+}
+
+@media (min-height: 600px) {
+    .modal-body { height: 600px; }
+}
+
+@media (min-height: 1000px) {
+    .modal-body { height: 800px; }
+}
+ .custom1{
+    background-color:blue;
+    border-collapse: collapse;
+    border-radius: 1em;
+    width: 60%;
+    overflow: hidden;
+}
+.custom2{
+    background-color:darkcyan;
+    width: 50%;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+} 
+.float-container {
+     /* border: 3px solid #fff;  */
+    padding: 20px;
+}
+
+.float-child {
+    width: 40%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red;  */
+} 
+.float-child2 {
+    width: 60%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+.bgm{
+    margin-top: 60px;
+    background-color: #f2f4f7;
+    border-radius: 1em;
+}
+.select {
+    margin: 50px;
+    width: 150px;
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+  }
+  .box{
+      background-color: white;
+      padding-left: 20px;
+      border: 1px solid gray;
+
+  }
+  .Cursive{
+      font-family:cursive;
+      font-size: 25px;
+  }

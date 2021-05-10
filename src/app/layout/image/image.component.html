@@ -1,0 +1,59 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="c-header-icon js-hamburger ">
+        <a [routerLink]="['/layout/dashboard']" class="nav-logo">
+            <img src="../../assets/assassins.jpg" alt="logo">
+        </a>
+    </div>
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+   
+  
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto hov" style="margin-left: 5%;">
+            
+            <li class="nav-item" [routerLinkActive]="['active']">
+                <a class="nav-link text-primary" [routerLink]="['/layout/custom']"><strong>Custom Form</strong></a>
+            </li>
+            <li class="nav-item" [routerLinkActive]="['active']">
+                <a class="nav-link text-primary" [routerLink]="['/layout/image']"><strong>Image Upload</strong></a>
+            </li>
+           
+           
+        </ul>
+      
+    </div>
+  </nav>
+
+  <div class="container">
+<div class="text-center;">
+    <input class="form-control" type="file"
+            (change)="onChange($event)">
+<div class="text-center">
+    <button (click)="onUpload()"
+    class="btn btn-success ">
+    Upload
+</button>
+
+</div>
+   
+</div>
+
+
+<!-- Shareable short link of uoloaded file -->
+
+<div class="container text-center jumbotron"
+    *ngIf="shortLink">
+    <h2> Visit Here</h2>
+    <a href="{{shortLink}}">{{shortLink}}</a>
+</div>
+
+
+<!--Flag variable is used here-->
+
+<div class="container" *ngIf="loading">
+    <h3>Loading ...</h3>
+</div>
+</div>
